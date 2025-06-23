@@ -9,11 +9,7 @@ const app = express();
 
 setupMongo()
 	.then(() => {
-		app.use(
-			cors({
-				origin: true,
-			}),
-		);
+		app.use(cors());
 		app.use(express.json());
 		app.use(routes);
 
