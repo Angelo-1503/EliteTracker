@@ -17,6 +17,7 @@
 	outline: 0;
 	font-family: "Lexend", sans-serif;
 	border: none;
+	box-sizing: border-box;
 }
 
 button {

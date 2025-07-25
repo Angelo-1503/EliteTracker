@@ -1,0 +1,12 @@
+.container h1 {
+	font-weight: bold;
+	font-size: 24px;
+	color: var(--white);
+	margin-bottom: 10px;
+}
+
+.container span {
+	color: var(--white);
+	font-size: 14px;
+	font-weight: 400;
+}
